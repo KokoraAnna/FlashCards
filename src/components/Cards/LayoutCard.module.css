@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: space-around; */
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 84px);
+}
+
+.btn-back {
+  width: 300px;
+  /* height: 10%; */
+
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  align-self: flex-start;
+  /*  */
+  margin-top: 1rem;
+  margin-left: 5%;
+}
+
+.btn-close img {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.container span {
+  margin-top: 15px;
+}
+
+@media (max-width: 423px) {
+  .btn-back {
+    margin-left: 5%;
+    margin-top: 1rem;
+  }
+}

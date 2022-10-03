@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0;
+  /* background-color: #12101b; */
+  background-color: #080613;
+}
+
+.centered {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 84px auto 0 auto;
+}
+
+@media (max-width: 480px) {
+  .centered {
+    margin: 40px auto 0 auto;
+  }
+}

@@ -1,0 +1,111 @@
+.section {
+  width: 50%;
+  display: flex;
+}
+
+.card {
+  height: 350px;
+  border-radius: 15px;
+  background-color: #373257;
+  padding: 2rem;
+}
+
+.card__wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.btn-edit {
+  width: 30px;
+  background: none;
+  border: none;
+}
+
+.card__term,
+.card__def {
+  font-size: 1.5rem;
+  text-align: center;
+  word-wrap: break-word;
+  margin-top: 7%;
+  width: 500px;
+}
+
+.card__def {
+  margin-top: 0;
+}
+
+.divider {
+  margin: 10% 0 10% 0;
+  border-bottom: 2px solid white;
+}
+
+.btn-incorrectly,
+.btn-correctly,
+.link-incorrectly,
+.link-correctly {
+  display: inline-block;
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #77e;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: Arial;
+}
+
+.link-incorrectly,
+.link-correctly {
+  border: 2px outset buttonborder;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-correctly,
+.link-correctly {
+  background-color: rgb(76, 201, 57);
+}
+
+.btn-incorrectly,
+.link-incorrectly {
+  background-color: rgb(198, 48, 48);
+}
+
+.btn-correctly:hover {
+  background-color: rgb(105, 171, 95);
+}
+
+.btn-incorrectly:hover {
+  background-color: rgb(182, 82, 82);
+}
+
+.numbers {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .card__term,
+  .card__def {
+    width: 350px;
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 450px) {
+  .card__term,
+  .card__def {
+    width: 250px;
+  }
+
+  .card__term {
+    margin-top: 50%;
+  }
+
+  .card {
+    height: 500px;
+  }
+}

@@ -1,0 +1,17 @@
+.text {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+}
+.clarification {
+  font-size: 2rem;
+  color: #77e;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 84px auto 0 auto;
+}

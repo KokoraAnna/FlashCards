@@ -1,0 +1,22 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+@media (max-width: 580px) {
+  .list {
+    justify-content: space-between;
+    margin: 10px 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .list {
+    justify-content: center;
+  }
+}
